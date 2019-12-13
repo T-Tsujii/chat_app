@@ -1,6 +1,6 @@
 # 作成するユーザー・メッセージの個数
 user_count = 3
-message_count = 3
+message_count = 1000
 
 ApplicationRecord.transaction do
   # テストユーザーが無ければ作成

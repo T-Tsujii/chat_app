@@ -1,0 +1,10 @@
+// const や let を使うと２回目以降にエラーが発生します
+var messageHeight = messageContainer.scrollHeight
+// 今回は上からメッセージを追加
+messageContainer.insertAdjacentHTML('afterbegin', "<%= j(render @messages) %>")
+var newMessageHeight = messageContainer.scrollHeight
+window.scrollBy(0, newMessageHeight - messageHeight)
+// メッセージが存在するときだけ，読み込み可能とする
+<% if @messages.present? %>
+showAdditionally = true
+<% end %>
