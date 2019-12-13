@@ -1,0 +1,4 @@
+<div class="message" id="message-<%= message.id %>">
+  <p><%= message.user.email %>: <%= l message.created_at, format: '%Y年%-m月%-d日(%a) %H:%M' %></p>
+  <%= simple_format(h message.content) %>
+</div>
