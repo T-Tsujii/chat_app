@@ -1,24 +1,15 @@
-# README
+# 「Action Cable を用いたチャットアプリ」サンプルコード
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+次の記事のサンプルコードです。
 
-Things you may want to cover:
+【Qiita】
 
-* Ruby version
+- [【Rails6】（送信時のリロード無し！）Action CableでSlack風チャットアプリを作成](https://qiita.com/take18k_tech/items/00cc14c0eff45073ffc7)
 
-* System dependencies
+## 開発環境
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- macOS Catalina 10.15.1
+- Ruby 2.6.4
+- Rails 6.0.1
+- Bootstrap 4.3.1
+- Devise 4.7.1
